@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PageTurner Bookstore</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">PageTurner</h1>
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#catalog">Catalog</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="catalog" class="container">
+    <section class="intro">
+      <h2>Featured Books</h2>
+      <p>Browse our current selection with live stock availability.</p>
+    </section>
+
+    <section class="book-grid" aria-label="Book Listings">
+      <article class="book-card">
+        <div class="book-meta">
+          <span class="badge available">In Stock</span>
+          <span class="price">$18.99</span>
+        </div>
+        <h3 class="book-title">The Pragmatic Programmer</h3>
+        <p class="book-author">by Andrew Hunt &amp; David Thomas</p>
+      </article>
+
+      <article class="book-card">
+        <div class="book-meta">
+          <span class="badge low-stock">Limited Stock</span>
+          <span class="price">$24.50</span>
+        </div>
+        <h3 class="book-title">Designing Data-Intensive Applications</h3>
+        <p class="book-author">by Martin Kleppmann</p>
+      </article>
+
+      <article class="book-card">
+        <div class="book-meta">
+          <span class="badge available">In Stock</span>
+          <span class="price">$14.99</span>
+        </div>
+        <h3 class="book-title">Clean Code</h3>
+        <p class="book-author">by Robert C. Martin</p>
+      </article>
+
+      <article class="book-card">
+        <div class="book-meta">
+          <span class="badge out-of-stock">Out of Stock</span>
+          <span class="price">$21.00</span>
+        </div>
+        <h3 class="book-title">Structure and Interpretation of Computer Programs</h3>
+        <p class="book-author">by Harold Abelson &amp; Gerald Jay Sussman</p>
+      </article>
+
+      <article class="book-card">
+        <div class="book-meta">
+          <span class="badge available">In Stock</span>
+          <span class="price">$16.75</span>
+        </div>
+        <h3 class="book-title">The Design of Everyday Things</h3>
+        <p class="book-author">by Don Norman</p>
+      </article>
+
+      <article class="book-card">
+        <div class="book-meta">
+          <span class="badge low-stock">Limited Stock</span>
+          <span class="price">$19.25</span>
+        </div>
+        <h3 class="book-title">Atomic Habits</h3>
+        <p class="book-author">by James Clear</p>
+      </article>
+    </section>
+  </main>
+
+  <footer id="about" class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 PageTurner Bookstore. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
